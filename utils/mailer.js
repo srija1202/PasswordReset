@@ -12,7 +12,7 @@ exports.sendResetEmail = async (recipientEmail, token) => {
   });
 
   // Define the email options
-  const resetLink = `http://localhost:5173/reset-password/${token}`;
+  const resetLink = `https://jade-sprite-2b38c2.netlify.app/reset-password/${token}`;
   
   const mailOptions = {
     from: process.env.EMAIL_USER, // Sender address (your Gmail)
