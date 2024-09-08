@@ -13,7 +13,7 @@ app.use(express.json());
 const cors = require('cors');
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Adjust this to your frontend URL
+  origin: 'https://jade-sprite-2b38c2.netlify.app', // Adjust this to your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
